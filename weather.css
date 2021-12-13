@@ -1,0 +1,372 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Work Sans',sans-serif;
+
+}
+
+.sun{
+	transform: translate(-15px);
+	margin: 0;
+	height: 40px;
+}
+.left-body{
+	float: left;
+	width: 70%;
+	background-color: #f0f5ff;
+	height: 1000px;
+}
+
+.right-body{
+	float: right;
+	width: 30%;
+	background-color: #ffffff;
+}
+
+.Switch{
+	float: right;
+	width: 8%;
+	height: 4%;
+	border-radius: 10px;
+	font-size: 15px;
+	padding: 5px;
+	text-align: center;
+	background-color: white;
+	margin-right: 5%;
+	margin-top: 2%;
+
+}
+
+.Switch .Sun, .Moon{
+	float: left;
+	padding: 2PX;
+	transform: translate(-5px,-2px);
+	font-size: 125%;
+	margin-left: 15px ;
+	margin-top: 7%;
+}
+
+.Switch .Sun:hover{
+	background-color: #76a4ff;
+	border-radius: 10%;
+}
+
+.Switch .Moon:hover{
+	background-color: #76a4ff;
+	border-radius: 30%;
+	background-size: 30px;
+
+}
+.left-body .weather div{
+	width: 10%;
+	float: left;
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	padding: 1%;
+	justify-content: space-between;
+	margin-right: 1%;
+	height: 150px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+		
+}
+.weather img{
+	width: 70px;
+
+}
+.start{
+	margin-left: 1%;
+}
+.left-body .weather div:hover{
+	background-color: #76a4ff
+;
+	color: white;
+}
+
+.Menu{
+	float: left;
+	background-color: #7ca8ff;
+	margin-top: 25%;
+	display: inline;
+	border-radius: 10px;
+
+}
+
+.Menu div{
+	margin: auto;
+	padding: 5px;
+	height: 50px;
+	font-size: 30px;
+	border-radius: 10px;
+}
+
+.Menu div:hover{
+	background-color: #ff7faf;
+}
+.Details{
+	margin-top: 15%;
+}
+
+.left-subleft{
+	width: 45%;  
+	height: 250px;
+	float: left;
+	background-color: green;
+}
+
+.left-subLeftTop{
+	float: left;
+	width: 45%;
+	background-color: white;
+	height: 250px;
+	border-radius: 3%;
+	margin-right: 2%;
+	margin-left: 1%;
+	box-sizing: border-box;
+	
+}
+
+
+.left-subright{
+	float: right;
+	width: 45%;
+	height: 600px;
+	font-size: 30px;	
+	border-radius: 3%;
+	background-color: white;
+	margin-right: 2% ;
+	box-sizing: border-box;
+}
+
+.left-subLeftDown{
+	width: 45%;
+	background-color: white;
+	float: left;
+	margin-left: 5%;
+	margin-right: 2%;
+	border-radius: 3%;
+	margin-top: 3%;
+	height: 250px;
+}
+
+.quote{
+	transform: translate(25px,5px);
+}
+
+.chemical div{
+	width: 10%;
+	height: 50px;
+	float: left;
+	background-color: #ddfce9;
+	border-radius: 10px;
+	text-align: center;
+	padding: 1%;
+	justify-content: space-between;
+	transform: translate(10px);
+	margin-right: 2%;
+	margin-left: 10px;
+	display: block;
+	margin-top: 5%;
+	color: #38c184;
+}
+
+.Refresh{
+	float: right;
+	background-color: #f0f7ff ;
+	padding: 10px;
+	border-radius: 10px;
+	margin-right: 35px;
+	color: rgba(107,157,255,255);
+}
+
+.left-subright i{
+	float: right;
+	margin-right: 30px;
+	margin-top: 20px;
+}
+
+.left-subright p{
+	margin-left: 30px;
+	margin-top: 20px;
+}
+
+.left-subright .Card1, .Card2{
+	background-color: #fff8ef;
+	width: 80%;
+	height: 30%;
+	margin: auto;
+	border-radius: 20px;
+	margin-top: 8%;
+}
+
+.Refresh:hover{
+	background-color: #8baff5;
+	color: white;
+}
+
+.Searchbar{
+	width: 50%;
+	height: 30px;
+	background-color: #f0f5ff;
+	margin-top: 7%;
+	padding: 10px;
+	border-radius: 9px;
+	margin-left: 4%;
+	font-size: 30px;
+	transform: translate(10px,-3px);
+}
+
+.Searchbar img{
+	transform: translate(10px,-1px);
+}
+.Searchbar .input{
+	padding: 8px;
+	border-radius: 10px;
+	background-color: #f0f5ff;
+	border: none;
+	width: 65%;
+	text-align: left;
+	height: 10px;
+	font-size: 20px;
+	transform: translate(10px,-3px);
+}
+
+.bell{
+	font-size: 40px;
+	margin-right: 3%;
+	float: right;
+}
+
+.bell:hover{
+	background-color: #6e9efa;
+	border-radius: 50%;
+	padding: 3px;
+}
+.Card .icon img{
+	float: right;
+	margin-right: 6%;
+	width: 10%;
+	border-radius: 30%;
+}
+
+.left-subLeftDown p{
+	transform: translate(20px,20px);
+	font-size: 20px;
+}
+
+.Chart{
+	margin-left: 3%;
+	margin-top: 5%;
+}
+
+.left-subLeftTop .Location {
+	float: right;
+	margin-top: 18px;
+	margin-right: 35px;
+	font-size: 20px;
+}
+
+.left-subLeftTop p{
+	margin-top: 18px;
+	margin-left: 20px;
+	font-size: 20px;
+}
+
+
+.WeatherCard{
+	width: 70%;
+	height: 500px;
+	background-color: #93b7ff;
+	background: linear-gradient(to bottom, #8db1ff 0%, #6e9efa 100%);
+	border-radius: 10%;
+	margin-left: 15%;
+	margin-top: 10%;
+}
+
+.WeatherCard .YellowDot{
+	background-color: yellow;
+	width: 100px;
+	height: 100px;
+	float: right;
+	border-radius: 50%;
+	border-top-right-radius: 40%;
+	transform: translate(2px);
+}
+
+
+.WeatherCard p{
+	transform: translate(15px,15px);
+	font-size: 20px;
+}
+
+.WeatherCard .Rain{
+	text-align: center;
+	margin-top: 30px;	
+}
+
+.WeatherCard .Rain img{
+	transform: translateX(35%);
+}
+
+.WeatherCard .Degree{
+	font-size: 50px;
+	padding: 10px;
+}
+
+.WeatherCard2{
+	width: 70%;
+	height: 90px;
+	background-color: #ff70a5;
+	margin-left: 15%;
+	margin-top: 6%;
+	border-radius: 15px;
+	word-spacing: 5px;
+}
+
+.WeatherCard2 h2, .WeatherCard3 h2{
+	float: right;
+	transform: translate(-5px,-3px);
+}
+.WeatherCard2 p{
+	transform: translate(10px,18px);
+	font-size: 15px;
+}
+
+.WeatherCard3{
+	width: 70%;
+	height: 90px;
+	background-color: #ffb968;
+	margin-left: 15%;
+	margin-top: 6%;
+	border-radius: 15px;
+	word-spacing: 5px;
+}
+
+.WeatherCard3 p{
+	transform: translate(10px,18px);
+	font-size: 15px;
+}
+
+.WeatherCard2 img{
+	float: right;
+	margin-right: 20px;
+}
+
+.WeatherCard3 img{
+	float: right;
+	margin-right: 20px;
+}
+
+.Card1 pre, .Card2 pre{
+	text-align: center;
+	margin-top: 3%;
+	color: grey;
+	font-size: 28px;
+}
+
+.Card1 .time, .Card2 .time{
+	font-size: 20px;
+	color: #8db1ff;
+}
